@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090d0b" />
+    <meta name="description" content="Every meme has an end. Give it the grave it deserves." />
+    <title>Meme Graveyard — Where memes rest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+    <header class="nav wrap">
+      <a class="brand" href="#" aria-label="Meme Graveyard home">
+        <span class="brand-icon">✝</span><span>MEME<span class="green">GRAVEYARD</span></span>
+      </a>
+      <nav><a href="#graves">The graves</a><a href="#how">How it works</a></nav>
+      <a class="nav-cta" href="#bury">＋ Bury a meme <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> THE INTERNET'S FINAL RESTING PLACE</div>
+          <h1>EVERY MEME<br>HAS AN <span class="outline">END.</span></h1>
+          <p class="hero-sub">Some made history. Some aged terribly.<br>Give them the grave they deserve.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#bury">＋ Bury a meme <span>↗</span></a>
+            <a class="button secondary" href="#graves">Explore the graves <span>↓</span></a>
+          </div>
+          <div class="hero-note"><span>✳</span> A little respect for the memes that came before us.</div>
+        </div>
+        <div class="grave-scene" aria-label="Illustration of a spooky digital cemetery">
+          <div class="moon"></div><div class="scene-mist mist-a"></div><div class="scene-mist mist-b"></div>
+          <div class="cross cross-back">✝</div>
+          <div class="tomb tomb-back"><span>404</span><small>NOT FOUND</small></div>
+          <div class="tomb tomb-main"><span class="tomb-emoji">☠</span><strong>R.I.P.</strong><small>THE MEME ERA</small><i>2020 — 2025</i></div>
+          <div class="tomb tomb-side"><span>LOL</span><small>NEVER<br>FORGOTTEN</small></div>
+          <div class="tiny-flower flower-a">✿</div><div class="tiny-flower flower-b">✿</div>
+          <div class="scene-label"><span class="live-dot"></span> ONLINE CEMETERY <span class="scene-coord">404 / FOREVER</span></div>
+        </div>
+      </section>
+
+      <section class="stats wrap" aria-label="Cemetery statistics">
+        <div><span class="stat-num" id="grave-count">03</span><span class="stat-label">MEMES RESTING</span></div>
+        <div><span class="stat-num">$0.50</span><span class="stat-label">TO BURY A MEME <sup>†</sup></span></div>
+        <div><span class="stat-num">∞</span><span class="stat-label">MEMORIES REMAIN</span></div>
+        <div class="stats-mark">RIP<span>®</span></div>
+      </section>
+
+      <section class="graves-section wrap" id="graves">
+        <div class="section-heading">
+          <div><div class="eyebrow">THE LATEST GOODBYES</div><h2>FRESHLY <span class="green">BURIED.</span></h2></div>
+          <div class="grave-controls"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search graves..." aria-label="Search graves"></label><button class="filter active" data-filter="all">All graves</button><button class="filter" data-filter="classic">Classics</button><button class="filter" data-filter="crypto">Crypto</button></div>
+        </div>
+        <div class="notice">⚠ <strong>Demo cemetery:</strong> sample entries below are illustrative. Market data and payments are not connected yet.</div>
+        <div class="grave-grid" id="grave-grid">
+          <article class="grave-card" data-name="pepe frog" data-type="classic">
+            <div class="card-art pepe-art"><span class="art-stamp">RIP #001</span><div class="pixel-frog">◕ᴗ◕</div><span class="art-caption">FEELS BAD MAN</span></div>
+            <div class="card-body"><div class="card-top"><span class="category">CLASSIC MEME</span><span class="status">✦ LEGEND</span></div><h3>Pepe the Frog</h3><p class="epitaph">“Feels good to have been here.”</p><div class="card-meta"><span>LAID TO REST</span><strong>Forever ago</strong></div><div class="card-footer"><span>MEME STATUS</span><strong class="dead">✝ PRESUMED DEAD</strong></div></div>
+          </article>
+          <article class="grave-card" data-name="doge dog" data-type="classic">
+            <div class="card-art doge-art"><span class="art-stamp">RIP #002</span><div class="doge-face">🐕</div><span class="art-caption">MUCH WOW. VERY PAST.</span></div>
+            <div class="card-body"><div class="card-top"><span class="category">CLASSIC MEME</span><span class="status">✦ OG</span></div><h3>Doge</h3><p class="epitaph">“Such wow. Much eternal rest.”</p><div class="card-meta"><span>LAID TO REST</span><strong>In our hearts</strong></div><div class="card-footer"><span>MEME STATUS</span><strong class="dead">✝ PRESUMED DEAD</strong></div></div>
+          </article>
+          <article class="grave-card" data-name="bonk solana crypto" data-type="crypto">
+            <div class="card-art crypto-art"><span class="art-stamp">RIP #003</span><div class="coin">BONK<small>†</small></div><span class="art-caption">TO THE MOON… ONCE</span></div>
+            <div class="card-body"><div class="card-top"><span class="category">CRYPTO MEME</span><span class="status">✦ ON-CHAIN</span></div><h3>Bonk <span class="ticker">BONK</span></h3><p class="epitaph">“May your candles rest in peace.”</p><div class="card-meta"><span>MARKET CAP</span><strong>Not connected</strong></div><div class="card-footer"><span>MEME STATUS</span><strong class="dead">✝ DEMO ENTRY</strong></div></div>
+          </article>
+        </div>
+        <div class="empty-state" id="empty-state" hidden>No graves found. Even the dead are hard to find.</div>
+        <div class="center-action"><button class="button secondary" id="show-all">You're all caught up <span>✝</span></button></div>
+      </section>
+
+      <section class="bury-section" id="bury">
+        <div class="bury-inner wrap">
+          <div><div class="eyebrow">GOT A MEME THAT'S PAST ITS PRIME?</div><h2>GIVE IT A<br><span class="green">PROPER SEND-OFF.</span></h2><p>Submit the link. Write its epitaph. Let the internet remember.</p></div>
+          <form id="bury-form" class="bury-form">
+            <label for="meme-name">MEME NAME</label><input id="meme-name" name="name" required maxlength="60" placeholder="e.g. Distracted Boyfriend">
+            <label for="meme-url">MEME URL</label><input id="meme-url" name="url" type="url" required placeholder="https://...">
+            <label for="epitaph">FINAL WORDS <span>(OPTIONAL)</span></label><input id="epitaph" name="epitaph" maxlength="120" placeholder="Gone, but never relevant again.">
+            <button class="button primary submit-button" type="submit">PREVIEW THE GRAVE <span>↗</span></button>
+            <p class="form-footnote">Demo only — no payment is taken and submissions are not saved.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="how-section wrap" id="how">
+        <div class="eyebrow">SIMPLE AS SIX FEET UNDER</div><h2>HOW IT <span class="green">WORKS.</span></h2>
+        <div class="steps">
+          <div class="step"><span class="step-number">01</span><div class="step-icon">🔗</div><h3>DROP THE LINK</h3><p>Found a meme that fell off? Bring its link to the graveyard.</p></div>
+          <div class="step"><span class="step-number">02</span><div class="step-icon">🪦</div><h3>MAKE IT OFFICIAL</h3><p>Give it a name, an epitaph, and a digital tombstone.</p></div>
+          <div class="step"><span class="step-number">03</span><div class="step-icon">📣</div><h3>SPREAD THE RIP</h3><p>Share the grave. Let the world pay its final respects.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#"><span class="brand-icon">✝</span><span>MEME<span class="green">GRAVEYARD</span></span></a><span>MEMES DIE. LEGENDS GET TOMBSTONES.</span><span>BUILT FOR THE CHRONICALLY ONLINE © 2026</span></div><div class="wrap footer-disclaimer">Unofficial parody project. No token is being offered on this demo site. Sample grave entries and market-related text are illustrative, not financial data.</div></footer>
+
+    <dialog id="preview-dialog" class="preview-dialog">
+      <button class="dialog-close" id="close-dialog" aria-label="Close">×</button>
+      <div class="eyebrow">GRAVE PREVIEW</div><div class="dialog-cross">✝</div><h2 id="preview-name">Meme Name</h2><p id="preview-epitaph">Gone, but not forgotten.</p><a id="preview-link" href="#" target="_blank" rel="noopener noreferrer">Open original link ↗</a><p class="form-footnote">This is a local preview only. Nothing has been published or charged.</p>
+      <button class="button primary" id="copy-grave" type="button">COPY GRAVE TEXT</button><span id="copy-status" role="status"></span>
+    </dialog>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
